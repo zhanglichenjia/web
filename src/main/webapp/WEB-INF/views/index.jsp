@@ -104,9 +104,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <li>
                 <img src="images/a1.jpg" alt="" />
                 <div class="banner-matter">
-                    <div class="price">
+                   <%-- <div class="price">
                         <h2>We Got Every Vegetable  in Your price</h2>
-                    </div>
+                    </div>--%>
                     <div class="banner-para">
                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
                     </div>
@@ -115,9 +115,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <li>
                 <img src="images/a3.jpg" alt="" />
                 <div class="banner-matter">
-                    <div class="price">
+                   <%-- <div class="price">
                         <h2>We Got Every Vegetable  in Your price</h2>
-                    </div>
+                    </div>--%>
                     <div class="banner-para">
                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
                     </div>
@@ -126,9 +126,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <li>
                 <img src="images/a2.jpg" alt="" />
                 <div class="banner-matter">
-                    <div class="price">
+                   <%-- <div class="price">
                         <h2>We Got Every Vegetable  in Your price</h2>
-                    </div>
+                    </div>--%>
                     <div class="banner-para">
 
                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
@@ -148,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <h4><a href="single.html">草莓  strawberry </a></h4>
                     <a href="single.html"><img class="img-responsive" src="images/pi.jpg" alt=" " ></a>
                     <p>草莓中所含的胡萝卜素是合成维生素A的重要物质，具有明目养肝作用。滋补调理 。</p>
-                    <a href="single.html" class="btn  btn-1c">点击购买</a>
+                    <a href="shopping" class="btn  btn-1c">点击购买</a>
                     <a href="single.html" class="ctn">¥12</a>
                 </div>
                 <div class="col-md-3 look">

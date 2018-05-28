@@ -27,6 +27,10 @@ public class MyController {
    private String about(){
         return "about";
    }
+    @RequestMapping("/shopping")
+    private String shopping(){
+        return "shopping";
+    }
 
 
 }
