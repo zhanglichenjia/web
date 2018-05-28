@@ -23,7 +23,10 @@ public class MyController {
         pro.add(new Product("3","水果3",3.4f));
         return pro;
     }
-
+    @RequestMapping("/about")
+   private String about(){
+        return "about";
+   }
 
 
 }
