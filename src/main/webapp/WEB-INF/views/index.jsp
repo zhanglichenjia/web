@@ -70,7 +70,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <li ><a href="">首页</a></li>
                     <li ><a href="about">关于我们</a></li>
                     <li><a href="product.html" >食尚生活</a></li>
-                    <li><a href="services.html" >时尚生活 </a></li>
+                    <li><a href="services.html" >生活资讯 </a></li>
                     <li><a href="contact.html" > 登录 </a></li>
                 </ul>
                 <script>
