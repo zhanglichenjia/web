@@ -1,4 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Home</title>
@@ -29,7 +30,7 @@
 		</script>
 	<!-- start-smoth-scrolling -->
 <link href="qqq/css/styles.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="qqq/css/component.css" />
 	<!-- animation-effect -->
 <link href="qqq/css/animate.min.css" rel="stylesheet">
 <script src="qqq/js/wow.min.js"></script>
@@ -212,7 +213,7 @@
 		</div>
 	</div>
 </div>
-<!--//services--><div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+<!--//services--
 <!--news-->
 	<div class="content-top-top">
 		<div class="container">
@@ -235,7 +236,7 @@
 								<div class="overlay"></div>
 								<div class=" news-bottom2">
 									<ul class="grid-news">
-										<li><span><i class="glyphicon glyphicon-calendar"> </i>08.09.2014</span><b>/</b></li>
+										<li><span><i class="glyphicon glyphicon-calendar"> </i>29.05.2018</span><b>/</b></li>
 										<li><span><i class="glyphicon glyphicon-comment"> </i>5 Comment</span><b>/</b></li>
 										<li><span><i class="glyphicon glyphicon-share"> </i>Share</span></li>
 									</ul>
@@ -250,7 +251,7 @@
 								<div class="overlay"></div>
 								<div class=" news-bottom2">
 									<ul class="grid-news">
-											<li><span><i class="glyphicon glyphicon-calendar"> </i>08.09.2014</span><b>/</b></li>
+											<li><span><i class="glyphicon glyphicon-calendar"> </i>29.05.2018</span><b>/</b></li>
 											<li><span><i class="glyphicon glyphicon-comment"> </i>5 Comment</span><b>/</b></li>
 											<li><span><i class="glyphicon glyphicon-share"> </i>Share</span></li>
 										</ul>
@@ -268,7 +269,7 @@
 								<div class="overlay"></div>
 								<div class=" news-bottom2">
 									<ul class="grid-news">
-											<li><span><i class="glyphicon glyphicon-calendar"> </i>08.09.2014</span><b>/</b></li>
+											<li><span><i class="glyphicon glyphicon-calendar"> </i>29.05.2018</span><b>/</b></li>
 											<li><span><i class="glyphicon glyphicon-comment"> </i>5 Comment</span><b>/</b></li>
 											<li><span><i class="glyphicon glyphicon-share"> </i>Share</span></li>
 										</ul>
@@ -283,7 +284,7 @@
 								<div class="overlay"></div>
 								<div class=" news-bottom2">
 									<ul class="grid-news">
-											<li><span><i class="glyphicon glyphicon-calendar"> </i>08.09.2014</span><b>/</b></li>
+											<li><span><i class="glyphicon glyphicon-calendar"> </i>29.05.2018</span><b>/</b></li>
 											<li><span><i class="glyphicon glyphicon-comment"> </i>5 Comment</span><b>/</b></li>
 											<li><span><i class="glyphicon glyphicon-share"> </i>Share</span></li>
 										</ul>
