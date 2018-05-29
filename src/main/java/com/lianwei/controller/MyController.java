@@ -31,6 +31,18 @@ public class MyController {
     private String shopping(){
         return "shopping";
     }
+    @RequestMapping("/index")
+    private String index(){
+        return "index";
+    }
+    @RequestMapping("/product")
+    private String product(){
+        return "product";
+    }
+    @RequestMapping("/banana")
+    private String banana(){
+        return "banana";
+    }
 
 
 }

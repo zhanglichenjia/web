@@ -51,21 +51,21 @@
             <div class="col-md-4 single-grid">
                 <div class="flexslider">
                     <ul class="slides">
-                        <li data-thumb="<%=basePath%>/zzz/images/s1.png">
-                            <div class="thumb-image"> <img src="<%=basePath%>/zzz/images/s1.png" data-imagezoom="true" class="img-responsive"> </div>
+                        <li data-thumb="<%=basePath%>/zzz/images/s5.png">
+                            <div class="thumb-image"> <img src="<%=basePath%>/zzz/images/s5.png" data-imagezoom="true" class="img-responsive"> </div>
                         </li>
-                        <li data-thumb="zzz/images/s2.png">
-                            <div class="thumb-image"> <img src="<%=basePath%>/zzz/images/s2.png" data-imagezoom="true" class="img-responsive"> </div>
+                        <li data-thumb="zzz/images/s6.png">
+                            <div class="thumb-image"> <img src="<%=basePath%>/zzz/images/s6.png" data-imagezoom="true" class="img-responsive"> </div>
                         </li>
-                        <li data-thumb="zzz/images/s3.png">
-                            <div class="thumb-image"> <img src="<%=basePath%>/zzz/images/s3.png" data-imagezoom="true" class="img-responsive"> </div>
+                        <li data-thumb="zzz/images/s4.png">
+                            <div class="thumb-image"> <img src="<%=basePath%>/zzz/images/s4.png" data-imagezoom="true" class="img-responsive"> </div>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-4 single-grid simpleCart_shelfItem">
-                <h3>Delicious cream strawberry 1 catty! Big and sweet. Makes you feel different.</h3>
-                <p><h5>吃草莓是庆祝一个特殊时刻最美妙的方式之一。还有什么方法比吃一个饱含果肉的奶油草莓更好的庆祝方式呢？</h5></p>
+                <h3>Life is like a banana. If you're not a banana pegger, you're a banana PeeWee PeeWee</h3>
+                <p><h5>如果说苹果是水果之王，不如说香蕉是水果之王，因为许多动物更喜欢香蕉，有一天，猴子手握香蕉说了一句：“选择你没有错”</h5></p>
                 <ul class="size">
                     <h3>数量</h3>
                     <li><a href="#">500 g</a></li>
@@ -97,8 +97,8 @@
                     <a href="#" class="add-cart item_add">立即购买</a>
                 </div>
                 <div class="tag">
-                    <p>Category : <a href="#"> 香蕉</a></p>
-                    <p>Tag : <a href="#"> Delicious banana.</a></p>
+                    <p>Category : <a href="#">香蕉</a></p>
+                    <p>Tag : <a href="#"> Delicious banana. </a></p>
                 </div>
             </div>
             <div class="clearfix"> </div>
@@ -109,7 +109,7 @@
 <!--related-products-->
 <div class="related-products">
     <div class="container">
-        <h3><a href="index">相关产品</a></h3>
+        <h3> <a href="index">相关产品</a></h3>
         <div class="product-model-sec single-product-grids">
             <div class="product-grid single-product">
                 <a href="single.html">
@@ -136,10 +136,10 @@
                 </div>
             </div>
             <div class="product-grid single-product">
-                <a href="banana">
+                <a href="shopping">
                     <div class="more-product"><span> </span></div>
                     <div class="product-img b-link-stripe b-animate-go  thickbox">
-                        <img src="<%=basePath%>/zzz/images/m2.png" class="img-responsive" alt="">
+                        <img src="<%=basePath%>/zzz/images/m10.png" class="img-responsive" alt="">
                         <div class="b-wrapper">
                             <h4 class="b-animate b-from-left  b-delay03">
                                 <button>View</button>
@@ -149,10 +149,10 @@
                 </a>
                 <div class="product-info simpleCart_shelfItem">
                     <div class="product-info-cust prt_name">
-                        <h4>香蕉</h4>
-                        <span class="item_price">￥3.2</span>
+                        <h4>草莓</h4>
+                        <span class="item_price">￥32</span>
                         <div class="ofr">
-                            <p class="pric1"><del>￥4</del></p>
+                            <p class="pric1"><del>￥40</del></p>
                             <p class="disc">[20% Off]</p>
                         </div>
                         <div class="clearfix"> </div>

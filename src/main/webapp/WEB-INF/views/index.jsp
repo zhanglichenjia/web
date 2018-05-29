@@ -68,8 +68,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <span class="menu"><img src="images/menu.png" alt="" > </span>
                 <ul>
                     <li ><a href="">首页</a></li>
-                    <li ><a href="about">关于我们</a></li>
-                    <li><a href="product.html" >食尚生活</a></li>
+                    <li ><a href="about">关于</a></li>
+                    <li><a href="product" >食尚生活</a></li>
                     <li><a href="services.html" >生活资讯 </a></li>
                     <li><a href="contact.html" > 登录 </a></li>
                 </ul>
@@ -107,9 +107,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                    <%-- <div class="price">
                         <h2>We Got Every Vegetable  in Your price</h2>
                     </div>--%>
-                    <div class="banner-para">
+                   <%-- <div class="banner-para">
                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
-                    </div>
+                    </div>--%>
                 </div>
             </li>
             <li>
@@ -118,9 +118,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                    <%-- <div class="price">
                         <h2>We Got Every Vegetable  in Your price</h2>
                     </div>--%>
-                    <div class="banner-para">
+                    <%--<div class="banner-para">
                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
-                    </div>
+                    </div>--%>
                 </div>
             </li>
             <li>
@@ -129,10 +129,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                    <%-- <div class="price">
                         <h2>We Got Every Vegetable  in Your price</h2>
                     </div>--%>
-                    <div class="banner-para">
+                    <%--<div class="banner-para">
 
                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
-                    </div>
+                    </div>--%>
                 </div>
             </li>
         </ul>
