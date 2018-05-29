@@ -43,6 +43,10 @@ public class MyController {
     private String banana(){
         return "banana";
     }
+    @RequestMapping("/zixun")
+    private String zixun(){
+        return "zixun";
+    }
 
 
 }
