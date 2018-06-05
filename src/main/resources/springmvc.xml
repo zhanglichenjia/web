@@ -41,6 +41,5 @@
 	<mvc:resources mapping="/zzz/**" location="/zzz/"/>
 	<mvc:resources mapping="/qqq/**" location="/qqq/"/>
 	<mvc:resources mapping="/sss/**" location="/sss/"/>
-
 	<mvc:resources mapping="/bbb/**" location="/bbb/"/>
 </beans>

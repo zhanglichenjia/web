@@ -60,7 +60,7 @@ s.parentNode.insertBefore(hm, s);
 					<ul>
 						<li><a href="index" data-hover="首页 ">首页  </a> </li>
 						<li><a href="about" data-hover="关于我们" > 关于我们</a></li>
-						<li><a href="services.html" data-hover="生活资讯">生活资讯 </a></li>
+						<li><a href="zixun" data-hover="生活资讯">生活资讯 </a></li>
                         <li><a href="contact.html" data-hover="登录">登录</a></li>
 					</ul>
 					<!--script-->
@@ -79,7 +79,7 @@ s.parentNode.insertBefore(hm, s);
 						<li><a href="index" data-hover="首页">首页  </a> </li>
 						<li><a href="about" data-hover="关于我们" > 关于我们</a></li>
 						<li><a href="#"><img src="sss/images/logo1.png" alt="" ></a></li>
-						<li><a href="services.html" data-hover="生活资讯">生活资讯</a></li>
+						<li><a href="zixun" data-hover="生活资讯">生活资讯</a></li>
                         <li><a href="contact.html" data-hover="登录">登录</a></li>
 					</ul>
 					<!--script-->
@@ -196,8 +196,8 @@ s.parentNode.insertBefore(hm, s);
 				<div class="col-md-3 amet-sed-box ">
 					<ul class="nav-bottom">
 						<li><a href="#" >回顶部</a> </li>
-						<li><a href="#" >关于我们</a></li>
-						<li><a href="#">生活资讯 </a></li>
+						<li><a href="about" >关于我们</a></li>
+						<li><a href="zixun">生活资讯 </a></li>
 						<li><a href="#">登录</a></li>						
 					</ul>
 				</div>

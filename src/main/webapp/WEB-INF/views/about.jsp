@@ -50,12 +50,12 @@
 			<a href="#" class="navicon"></a>
 				<div class="toggle">
 					<ul class="toggle-menu">
-						<li><a class="active" href="index.html">Home</a></li>
+						<li><a class="active" href="index">Home</a></li>
 						<li><a  href="menu.html">Menu</a></li>
-						<li><a  href="blog.html">食尚生活</a></li>
-						<li><a  href="typo.html">关于我们</a></li>
+						<li><a  href="product">食尚生活</a></li>
+						<li><a  href="zixun">生活资讯</a></li>
+						<li><a  href="about">关于我们</a></li>
 						<li><a  href="events.html">登录</a></li>
-						<li><a  href="contact.html">生活资讯</a></li>
 					</ul>
 				</div>
 			<script>
@@ -307,11 +307,11 @@
 			<div class="footer-head">
 				<div class="col-md-8 footer-top animated wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="500ms">
 					<ul class=" in">
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index">Home</a></li>
 						<li><a  href="menu.html">Menu</a></li>
-						<li><a  href="blog.html">关于</a></li>
-						<li><a  href="events.html">生活资讯</a></li>
-						<li><a  href="contact.html">食尚生活</a></li>
+						<li><a  href="about">关于</a></li>
+						<li><a  href="product">食尚生活</a></li>
+						<li><a  href="zixun">生活资讯</a></li>
 					</ul>					
 						<span>There are many variations of fiurt</span>
 				</div>
