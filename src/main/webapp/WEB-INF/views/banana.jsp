@@ -37,6 +37,11 @@
                 controlNav: "thumbnails"
             });
         });
+        function bbb()
+        {
+            alert("下单成功!");
+        }
+
     </script>
     <!--//FlexSlider -->
 </head>
@@ -68,20 +73,18 @@
                 <p><h5>如果说苹果是水果之王，不如说香蕉是水果之王，因为许多动物更喜欢香蕉，有一天，猴子手握香蕉说了一句：“选择你没有错”</h5></p>
                 <ul class="size">
                     <h3>数量</h3>
-                    <li><a href="#">500 g</a></li>
                     <li><a href="#">1000 g</a></li>
-                    <li><a href="#">2000 g</a></li>
-                    <li><a href="#">5000 g</a></li>
+
                 </ul>
                 <ul class="size">
                     <h3>香蕉品种</h3>
-                    <li><a href="#">1 Step</a></li>
-                    <li><a href="#">2 Step</a></li>
-                    <li><a href="#">3 Step</a></li>
+                    <li><a href="#">1 美人蕉</a></li>
+                    <li><a href="#">2 小米蕉</a></li>
+                    <li><a href="#">3 大香蕉</a></li>
                 </ul>
                 <div class="galry">
                     <div class="prices">
-                        <h5 style="color: red"> ￥34</h5>
+                        <h5 style="color: red"> ￥6.4</h5>
                     </div>
                     <div class="rating">
                         <span>☆</span>
@@ -94,7 +97,7 @@
                 </div>
                 <p class="qty"> Qty :  </p><input min="1" type="number" id="quantity" name="quantity" value="1" class="form-control input-small">
                 <div class="btn_form">
-                    <a href="#" class="add-cart item_add">立即购买</a>
+                    <a href="#" class="add-cart item_add" onclick="bbb()">立即购买</a>
                 </div>
                 <div class="tag">
                     <p>Category : <a href="#">香蕉</a></p>
@@ -126,7 +129,7 @@
                 <div class="product-info simpleCart_shelfItem">
                     <div class="product-info-cust prt_name">
                         <h4>猕猴桃</h4>
-                        <span class="item_price">￥4.8</span>
+                        <span class="item_price">￥4.80</span>
                         <div class="ofr">
                             <p class="pric1"><del>￥6</del></p>
                             <p class="disc">[20% Off]</p>
@@ -173,7 +176,7 @@
                 </a>
                 <div class="product-info simpleCart_shelfItem">
                     <div class="product-info-cust prt_name">
-                        <h4>凤梨</h4>
+                        <h4>菠萝</h4>
                         <span class="item_price">￥5.6</span>
                         <div class="ofr">
                             <p class="pric1"><del>$7</del></p>

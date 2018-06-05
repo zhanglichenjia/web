@@ -37,6 +37,12 @@
                 controlNav: "thumbnails"
             });
         });
+
+        function bbb()
+        {
+            alert("下单成功!");
+        }
+
     </script>
     <!--//FlexSlider -->
 </head>
@@ -69,19 +75,16 @@
                 <ul class="size">
                     <h3>数量</h3>
                     <li><a href="#">500 g</a></li>
-                    <li><a href="#">1000 g</a></li>
-                    <li><a href="#">2000 g</a></li>
-                    <li><a href="#">5000 g</a></li>
                 </ul>
                 <ul class="size">
-                    <h3>香蕉品种</h3>
-                    <li><a href="#">1 Step</a></li>
-                    <li><a href="#">2 Step</a></li>
-                    <li><a href="#">3 Step</a></li>
+                    <h3>草莓品种</h3>
+                    <li><a href="#">1 奶油草莓</a></li>
+                    <li><a href="#">2 丰香草莓</a></li>
+                    <li><a href="#">3  红颜草莓</a></li>
                 </ul>
                 <div class="galry">
                     <div class="prices">
-                        <h5 style="color: red"> ￥34</h5>
+                        <h5 style="color: red"> ￥32.00</h5>
                     </div>
                     <div class="rating">
                         <span>☆</span>
@@ -94,11 +97,11 @@
                 </div>
                 <p class="qty"> Qty :  </p><input min="1" type="number" id="quantity" name="quantity" value="1" class="form-control input-small">
                 <div class="btn_form">
-                    <a href="#" class="add-cart item_add">立即购买</a>
+                    <a href="#" class="add-cart item_add" onclick="bbb()">立即购买</a>
                 </div>
                 <div class="tag">
-                    <p>Category : <a href="#"> 香蕉</a></p>
-                    <p>Tag : <a href="#"> Delicious banana.</a></p>
+                    <p>Category : <a href="#"> 草莓</a></p>
+                    <p>Tag : <a href="#"> Delicious strawberry.</a></p>
                 </div>
             </div>
             <div class="clearfix"> </div>
