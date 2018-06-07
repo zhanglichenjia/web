@@ -24,6 +24,9 @@
 <div class="logo">
     <h3>Fruit shopping Cart</h3>
 </div>
+<div class="sy">
+ <h5><a href="index"><img src="fff/images/pi3.png" alt=""></a></h5>
+</div>
     <section class="cartMain">
         <div class="cartMain_hd">
             <ul class="order_lists cartTop">
@@ -121,7 +124,7 @@
             <div class="bar-right">
                 <div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
                 <div class="totalMoney">共计: <strong class="total_text">0.00</strong></div>
-                <div class="calBtn"><a href="#" onclick="zmc()">付款</a></div>
+                <div class="calBtn"><a href="#" onclick="mcon()">付款</a></div>
 				
             </div>
         </div>
@@ -141,16 +144,16 @@
 		});
 	});	  
 });
-
-function zmb()
-{
-    alert("订单已取消，产品仍会为你保留半小时!");
-}
-function zmc()
-{
-    alert("付款成功!");
-    window.location.href="index";
-}
+    function mcon(){
+        var boo = confirm('是否付款?')
+        //confirm 会返回你选择的选项,然后可以依据选择执行逻辑
+        if(boo){
+            alert('付款成功！');
+            window.location.href="index";
+        }else{
+            alert('您尚未付款！')
+        }
+    }
 </script>
 	
     <script src="fff/js/carts.js"></script>

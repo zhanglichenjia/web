@@ -32,7 +32,7 @@
             <div class="container main">
                 <div class="row home">
                     <div id = "index_left" class="col-md-6 left">
-                        <img class="img-responsive img-rabbit" src="bbb/images/work.jpg">
+                        <img class="img-responsive img-rabbit" src="bbb/images/bbn.png">
                     </div>
                     <div id = "index_right" class="col-md-6 text-center right">
                         <div class="logo">
@@ -62,14 +62,14 @@
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6 left" id="about_left">
-                        <img class="img-responsive img-rabbit" src="bbb/images/aa1.jpg">
+                        <img class="img-responsive img-rabbit" src="bbb/images/t3.png">
                     </div>
 
                     <div class="col-md-6 right" id="about_right">
                         <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
-                        <div id="watermark">
+                        <div id="watermark1">
                             <h2 class="page-title" text-center>巧吃水果 美容瘦身</h2>
-                            <div class="marker">a</div>
+
                         </div>
                         <p class='subtitle'>水果美容瘦身小秘方
                         </p>
@@ -118,9 +118,9 @@
 
                     <div class="col-md-6 right" id="contact_right">
                         <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
-                        <div id="watermark">
+                        <div id="watermark2">
                             <h2 class="page-title" text-center>你知道吗？</h2>
-                            <div class="marker">c</div>
+
 							<p class='subtitle'>好吃又营养</p>
                         </div>
                         <p class="info">蓝莓抗老化佼佼者与其他40种新鲜水果和蔬菜相比，
