@@ -21,6 +21,9 @@
 	
 </head>
 <body>
+<div class="logo">
+    <h3>Fruit shopping Cart</h3>
+</div>
     <section class="cartMain">
         <div class="cartMain_hd">
             <ul class="order_lists cartTop">
