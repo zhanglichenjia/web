@@ -24,9 +24,12 @@
 <div class="logo">
     <h3>Fruit shopping Cart</h3>
 </div>
-<div class="sy">
- <h5><a href="index"><img src="fff/images/pi3.png" alt=""></a></h5>
-</div>
+<%--<div class="sy">
+<a href="index"><img src="fff/images/pi3.png" alt=""></a>
+</div>--%>
+
+
+
     <section class="cartMain">
         <div class="cartMain_hd">
             <ul class="order_lists cartTop">
@@ -114,18 +117,21 @@
                         <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
                     </li>
                 </ul>
-               
             </div>
         </div>
+        <div class="sy" >
+            <a href="index" ><img src="fff/images/pi3.png" alt=""></a>
+        </div>
 
-        
+        <!--底部-->
+
+
         <!--底部-->
         <div class="bar-wrapper">
             <div class="bar-right">
                 <div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
                 <div class="totalMoney">共计: <strong class="total_text">0.00</strong></div>
                 <div class="calBtn"><a href="#" onclick="mcon()">付款</a></div>
-				
             </div>
         </div>
     </section>

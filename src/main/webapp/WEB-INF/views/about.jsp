@@ -44,7 +44,7 @@
  <div class="header">
 	<div class="container">
 		<div class="logo animated wow pulse" data-wow-duration="1000ms" data-wow-delay="500ms">
-			<h1><a href="index.html"><span>F</span><img src="qqq/images/oo.png" alt=""><img src="qqq/images/oo.png" alt="">uirt</a></h1>
+			<h1><a href="login1.jsp"><span>F</span><img src="qqq/images/oo.png" alt=""><img src="qqq/images/oo.png" alt="">uirt</a></h1>
 		</div>
 		<div class="nav-icon">		
 			<a href="#" class="navicon"></a>

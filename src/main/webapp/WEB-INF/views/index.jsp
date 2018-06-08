@@ -55,8 +55,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </form>
                     </div>
                     <div class="cart">
-                        <a href="#" class="cart-in"> </a>
-                        <span> 5</span>
+                        <a href="fruit" class="cart-in"> </a>
+                        <span> 2</span>
                     </div>
                     <div class="clearfix"> </div>
                 </div>
@@ -104,20 +104,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <li>
                 <img src="images/a1.jpg" alt="" />
                 <div class="banner-matter">
-                   <%-- <div class="price">
-                        <h2>We Got Every Vegetable  in Your price</h2>
-                    </div>--%>
-                   <%-- <div class="banner-para">
-                        <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
-                    </div>--%>
+                    <%-- <div class="price">
+                         <h2>We Got Every Vegetable  in Your price</h2>
+                     </div>--%>
+                    <%-- <div class="banner-para">
+                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+                     </div>--%>
                 </div>
             </li>
             <li>
                 <img src="images/a3.jpg" alt="" />
                 <div class="banner-matter">
-                   <%-- <div class="price">
-                        <h2>We Got Every Vegetable  in Your price</h2>
-                    </div>--%>
+                    <%-- <div class="price">
+                         <h2>We Got Every Vegetable  in Your price</h2>
+                     </div>--%>
                     <%--<div class="banner-para">
                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
                     </div>--%>
@@ -126,9 +126,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <li>
                 <img src="images/a2.jpg" alt="" />
                 <div class="banner-matter">
-                   <%-- <div class="price">
-                        <h2>We Got Every Vegetable  in Your price</h2>
-                    </div>--%>
+                    <%-- <div class="price">
+                         <h2>We Got Every Vegetable  in Your price</h2>
+                     </div>--%>
                     <%--<div class="banner-para">
 
                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
@@ -148,29 +148,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <h4><a href="single.html">草莓  strawberry </a></h4>
                     <a href="single.html"><img class="img-responsive" src="images/pi.jpg" alt=" " ></a>
                     <p>草莓中所含的胡萝卜素是合成维生素A的重要物质，具有明目养肝作用。滋补调理 。</p>
-                    <a href="shopping" class="btn  btn-1c">点击购买</a>
-                    <a href="single.html" class="ctn">¥12</a>
+                    <a href="tologin" class="btn  btn-1c">点击购买</a>
+                    <a href="single.html" class="ctn">¥32.00</a>
                 </div>
                 <div class="col-md-3 look">
                     <h4><a href="single.html">柠檬 lemon </a></h4>
                     <a href="single.html"><img class="img-responsive" src="images/pi1.jpg" alt=" " ></a>
                     <p>柠檬富含维生素C，能化痰止咳，生津健胃。用于支气管炎，百日咳，食欲不振，维生素缺乏。 </p>
                     <a href="single.html" class="btn  btn-1c">点击购买 </a>
-                    <a class="ctn">¥12</a>
+                    <a class="ctn">¥18.80</a>
                 </div>
                 <div class="col-md-3 look">
                     <h4><a href="single.html">火龙果 pitaya </a></h4>
                     <a href="single.html"><img class="img-responsive" src="images/pi2.jpg" alt=" " ></a>
                     <p>火龙果有预防便秘、促进眼睛保健、增加骨质度、帮助细胞膜形成、预防贫血和抗神经炎。 </p>
                     <a href="single.html" class="btn  btn-1c">点击购买</a>
-                    <a  class="ctn">¥12</a>
+                    <a  class="ctn">¥7.00</a>
                 </div>
                 <div class="col-md-3 look">
                     <h4><a href="single.html">樱桃 cherry </a></h4>
                     <a href="single.html"><img class="img-responsive" src="images/pi3.jpg" alt=" " ></a>
                     <p>果实可以作为水果食用，外表色泽鲜艳，果实富含糖、蛋白质、维生素及钙、铁、磷、钾等多种元素。 </p>
                     <a href="single.html" class="btn  btn-1c">点击购买</a>
-                    <a  class="ctn">¥12</a>
+                    <a  class="ctn">¥30.00</a>
                 </div>
                 <div class="clearfix"> </div>
             </div>
@@ -180,28 +180,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <a href="single.html"><img class="img-responsive" src="images/pi4.jpg" alt=" " ></a>
                     <p>猕猴桃的质地柔软，口感酸甜。猕猴桃除含有猕猴桃碱、蛋白水解酶还富含很多维生素。 </p>
                     <a href="single.html" class="btn  btn-1c">点击购买</a>
-                    <a  class="ctn">¥12</a>
+                    <a  class="ctn">¥4.80</a>
                 </div>
                 <div class="col-md-3 look">
                     <h4><a href="single.html">香蕉 banana </a></h4>
                     <a href="single.html"><img class="img-responsive" src="images/pi5.jpg" alt=" " ></a>
                     <p>香蕉属高热量水果，在一些热带地区香蕉还作为主要粮食。香蕉果肉营养价值颇高。 </p>
                     <a href="single.html" class="btn  btn-1c">点击购买</a>
-                    <a  class="ctn">¥12</a>
+                    <a  class="ctn">¥3.00</a>
                 </div>
                 <div class="col-md-3 look">
                     <h4><a href="single.html">菠萝 pineapple </a></h4>
                     <a href="single.html"><img class="img-responsive" src="images/pi6.jpg" alt=" " ></a>
                     <p>菠萝可用于伤暑、身热烦渴、腹中痞闷、消化不良、小便不利、头昏眼花等症。 </p>
                     <a href="single.html" class="btn  btn-1c">点击购买 </a>
-                    <a  class="ctn">¥12</a>
+                    <a  class="ctn">¥5.60</a>
                 </div>
                 <div class="col-md-3 look">
                     <h4><a href="single.html">葡萄 grape </a></h4>
                     <a href="single.html"><img class="img-responsive" src="images/pi7.jpg" alt=" " ></a>
                     <p>葡萄为著名水果，生食或制葡萄干，并酿酒，酿酒后的酒脚可提酒食酸，根和藤药用能止呕、安胎。 </p>
                     <a href="single.html" class="btn  btn-1c">点击购买</a>
-                    <a  class="ctn">¥12</a>
+                    <a  class="ctn">¥9.60</a>
                 </div>
                 <div class="clearfix"> </div>
                 <div class="content-top">
@@ -210,28 +210,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <a href="single.html"><img class="img-responsive" src="images/pi8.jpg" alt=" " ></a>
                         <p>芒果果实含有糖、蛋白质、粗纤维，芒果所含有的维生素A的前体胡萝卜素成分特别高。</p>
                         <a href="single.html" class="btn  btn-1c">点击购买</a>
-                        <a href="single.html" class="ctn">¥12</a>
+                        <a href="single.html" class="ctn">¥5.00</a>
                     </div>
                     <div class="col-md-3 look">
                         <h4><a href="single.html">苹果 apple </a></h4>
                         <a href="single.html"><img class="img-responsive" src="images/pi9.jpg" alt=" " ></a>
                         <p>苹果不仅含有丰富的糖、维生素和矿物质等大脑必需的营养素，而且更重要的是富含锌元素。 </p>
                         <a href="single.html" class="btn  btn-1c">点击购买</a>
-                        <a  class="ctn">¥12</a>
+                        <a  class="ctn">¥4.00</a>
                     </div>
                     <div class="col-md-3 look">
                         <h4><a href="single.html">梨 pear </a></h4>
                         <a href="single.html"><img class="img-responsive" src="images/pi10.jpg" alt=" " ></a>
                         <p>梨，中药材名。有生津，润燥，清热，化痰。治热病津伤烦渴，消渴，热咳，噎膈，便秘功效。 </p>
                         <a href="single.html" class="btn  btn-1c">点击购买</a>
-                        <a  class="ctn">¥12</a>
+                        <a  class="ctn">¥8.00</a>
                     </div>
                     <div class="col-md-3 look">
                         <h4><a href="single.html">香橙 orange </a></h4>
                         <a href="single.html"><img class="img-responsive" src="images/pi12.jpg" alt=" " ></a>
                         <p>香橙含有大量的糖和一定量的柠檬酸以及丰富的维生素C，营养价值非常的高。还有化痰止咳的作用。 </p>
                         <a href="single.html" class="btn  btn-1c">点击购买</a>
-                        <a class="ctn">¥12</a>
+                        <a class="ctn">¥19.90</a>
                     </div>
                     <div class="clearfix"> </div>
                 </div>

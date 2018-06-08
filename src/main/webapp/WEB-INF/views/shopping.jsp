@@ -38,10 +38,16 @@
             });
         });
 
-        function bbb()
-        {
-            alert("下单成功!");
+        function mcon(){
+            var boo = confirm('是否加入购物车?')
+            //confirm 会返回你选择的选项,然后可以依据选择执行逻辑
+            if(boo){
+                alert('已成功加入购物车！');
+            }else{
+                alert('您选购的商品未加入购物车！')
+            }
         }
+
 
     </script>
     <!--//FlexSlider -->
@@ -97,7 +103,7 @@
                 </div>
                 <p class="qty"> Qty :  </p><input min="1" type="number" id="quantity" name="quantity" value="1" class="form-control input-small">
                 <div class="btn_form">
-                    <a href="#" class="add-cart item_add" onclick="bbb()">立即购买</a>
+                    <a href="#" class="add-cart item_add" onclick="mcon()">立即购买</a>
                 </div>
                 <div class="tag">
                     <p>Category : <a href="#"> 草莓</a></p>
@@ -153,7 +159,7 @@
                 <div class="product-info simpleCart_shelfItem">
                     <div class="product-info-cust prt_name">
                         <h4>香蕉</h4>
-                        <span class="item_price">￥3.2</span>
+                        <span class="item_price">￥3</span>
                         <div class="ofr">
                             <p class="pric1"><del>￥4</del></p>
                             <p class="disc">[20% Off]</p>

@@ -53,7 +53,7 @@
 		<property name="configLocation" value="classpath:mybatis-config.xml" />
 	</bean>
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.lianewi.dao" />
+		<property name="basePackage" value="com.lianwei.dao" />
 	</bean>
 	<!--
 	<bean id="teacherService" class="com.huhong.service.TeacherServiceImpl"/>-->

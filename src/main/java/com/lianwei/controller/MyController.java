@@ -47,6 +47,11 @@ public class MyController {
     private String zixun(){
         return "zixun";
     }
+    @RequestMapping("/fruit")
+    private String fruit(){
+        return "fruit";
+    }
+
 
 
 }

@@ -41,12 +41,12 @@ a:hover{
     color: #f3db0e;
 }
 .sy{
-    position: absolute;
-    top:400px;
-    right:10px;
+    position: relative;
+    left:1050px;
     height: 100px;
     width: 100px;
 }
+
 .cartMain{
     position: relative;
     width: 1200px;
