@@ -101,7 +101,7 @@
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                <p class="qty"> Qty :  </p><input min="1" type="number" id="quantity" name="quantity" value="1" class="form-control input-small">
+                <p class="qty"> Qty :  </p><input min="1"  id="quantity" name="quantity" value="1" class="form-control input-small">
                 <div class="btn_form">
                     <a href="#" class="add-cart item_add" onclick="mcon()">立即购买</a>
                 </div>

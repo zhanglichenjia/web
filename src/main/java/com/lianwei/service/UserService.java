@@ -10,7 +10,7 @@ import com.lianwei.model.User;
  */
 public interface  UserService {
     //用户注册
-    String regist(User user);
+    String regist(User user) throws ResultException;
     User getUserByName(String name);
     User findUserByName(String name);
      User checkLogin(String name, String password);

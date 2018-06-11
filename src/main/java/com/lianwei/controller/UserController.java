@@ -28,16 +28,45 @@ public class UserController {
     public  String toregist(){
         return "regist";
     }
+
+
+//    @RequestMapping("/regist")
+//    public String regist(User user, Model model){
+//
+//        user.setId(StringUtils.bulidId(user.getName()));
+//        userService.regist(user);
+//
+//        model.addAttribute("msg", "注册成功");
+//        //注册成功后跳转success.jsp页面
+//        return "login";
+//    }
+    @ResponseBody
     @RequestMapping("/regist")
-    public String regist(User user, Model model){
+    public ResultBean regist(@RequestBody  User user, Model model){
+        ResultBean rb = new ResultBean();
+        try{
+            user.setId(StringUtils.bulidId(user.getName()));
+            user.setDiscount(100);
+            user.setIntegral(0);
+            userService.regist(user);
+            rb.setResult_number(1000);
+            rb.setResult(user);
+            rb.setMessage("注册成功");
+            model.addAttribute("msg", "注册成功");
+        }catch (ResultException e){
+            rb.setResult_number(1001);
+            rb.setResult(null);
+            rb.setMessage(e.getMessage());
+        }
 
-        user.setId(StringUtils.bulidId(user.getName()));
-        userService.regist(user);
 
-        model.addAttribute("msg", "注册成功");
         //注册成功后跳转success.jsp页面
-        return "login";
+        return rb;
     }
+
+
+
+
     @RequestMapping("/tologin")
     public  String tologin(){
         return "login";
@@ -63,6 +92,10 @@ public class UserController {
             rb.setResult_number(1001);
             rb.setResult(null);
             rb.setMessage(e.getMessage());
+        }catch (Exception e){
+            rb.setResult_number(1001);
+            rb.setResult(null);
+            rb.setMessage("登录出错");
         }
 
         return rb;
@@ -74,6 +107,10 @@ public class UserController {
     }
 
 
+    @RequestMapping("/toLoginpage")
+    public String toLoginpage(){
+        return "login";
+    }
 
 
 }

@@ -62,8 +62,15 @@
 <div  class="outBox">
     <div  class="loginBox" ><br><br><br>
         <div class="logintitle">登录</div><br><br>
-        用户名：<input type="text" id="name" name="name"/></br></br></br>
-        密码： <input type="password" id="password" name="password"/></br></br></br>
+        <table align="center">
+            <tr><td> 用户名：<br><br></td>
+                <td><input type="text" id="name" name="name"/><br><br></td>
+            </tr>
+            <tr>
+                <td> 密码：<br><br> </td>
+                <td><input type="password" id="password" name="password"/><br><br></td>
+            </tr>
+        </table>
         <a href="toregist"><input type="button" value="注册"  /></a>
         <input id="login" type="button" value="登录"  />
     </div>

@@ -71,7 +71,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <li ><a href="about">关于我们</a></li>
                     <li><a href="product" >食尚生活</a></li>
                     <li><a href="zixun" >生活资讯 </a></li>
-                    <li><a href="contact.html" > 登录 </a></li>
                 </ul>
                 <script>
                     $("span.menu").click(function(){

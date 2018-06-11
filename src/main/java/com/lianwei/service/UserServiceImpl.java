@@ -18,8 +18,18 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userDao;
 
-    public String regist(User user) {
-        return userDao.insert(user)+"";
+//    public String regist(User user) {
+//        return userDao.insert(user)+"";
+//    }
+
+    public String regist(User user) throws ResultException {
+        String result = "";
+        try{
+            result= userDao.insert(user)+"";
+        }catch (Exception e){
+            throw new ResultException("注冊失敗");
+        }
+        return result;
     }
 
     public User getUserByName(String name) {
