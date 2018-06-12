@@ -16,6 +16,7 @@
         function mcon() {
             var name = $("#name").val();
             var password = $("#password").val();
+            var truename = $("#truename").val();
             if (name == null || name == "") {
                 alert("用户名不能为空");
                 return;
@@ -24,19 +25,24 @@
                 alert("密码不能为空");
                 return;
             }
-            doRegeist(name,password);
 
-          alert('注册成功！回到登录界面进行登录');
+            if (truename == null || truename == "") {
+                alert("真实姓名不能为空");
+                return;
+            }
+            doRegeist(name,password,truename);
+
+
         }
 
 
-        function doRegeist(name,password) {
+        function doRegeist(name,password,truename) {
             // alert("aaaaaaaa");
             var route = "http://localhost:8080/Web/regist"; //数据传输到文件
             var $content = {
                 name: name,
-                password: password
-
+                password: password,
+                truename:truename
             }
             var content = JSON.stringify($content);
             //alert(content);
@@ -48,6 +54,7 @@
                 dataType: 'json',
                 success: function (data) {
                     if (data.result_number == 1000) {
+                        alert('注册成功！回到登录界面进行登录');
                         window.location.href = "http://localhost:8080/Web/tologin";
                     } else {
                         alert(data.message);
