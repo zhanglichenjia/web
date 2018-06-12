@@ -152,10 +152,9 @@
 });
     function mcon(){
         var boo = confirm('是否付款?')
-        //confirm 会返回你选择的选项,然后可以依据选择执行逻辑
+
         if(boo){
-            alert('付款成功！');
-            window.location.href="index";
+            window.location.href="zifu";
         }else{
             alert('您尚未付款！')
         }
