@@ -43,10 +43,10 @@
     </delete>
     <insert id="insert" parameterType="com.lianwei.model.User" >
         insert into user (id, name, truename,
-        password, discount, integral
+        password, discount, integral,tell
         )
         values (#{id,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{truename,jdbcType=VARCHAR},
-        #{password,jdbcType=VARCHAR}, #{discount,jdbcType=INTEGER}, #{integral,jdbcType=INTEGER}
+        #{password,jdbcType=VARCHAR}, #{discount,jdbcType=INTEGER}, #{integral,jdbcType=INTEGER},#{tell,jdbcType=VARCHAR}
         )
     </insert>
     <insert id="insertSelective" parameterType="com.lianwei.model.User" >

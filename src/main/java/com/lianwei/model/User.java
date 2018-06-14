@@ -11,6 +11,8 @@ public class User implements Serializable {
 
     private String password;
 
+    private String tell;
+
     private Integer discount;
 
     private Integer integral;
@@ -64,4 +66,14 @@ public class User implements Serializable {
     public void setIntegral(Integer integral) {
         this.integral = integral;
     }
+
+    public String getTell() {
+        return tell;
+    }
+
+    public void setTell(String tell) {
+        this.tell = tell;
+    }
+
+
 }

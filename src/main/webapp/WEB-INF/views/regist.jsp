@@ -17,6 +17,7 @@
             var name = $("#name").val();
             var password = $("#password").val();
             var truename = $("#truename").val();
+            var tell = $("#tell").val();
             if (name == null || name == "") {
                 alert("用户名不能为空");
                 return;
@@ -30,19 +31,24 @@
                 alert("真实姓名不能为空");
                 return;
             }
-            doRegeist(name,password,truename);
+            if (tell == null || tell == "") {
+                alert("电话不能为空");
+                return;
+            }
+            doRegeist(name,password,truename,tell);
 
 
         }
 
 
-        function doRegeist(name,password,truename) {
+        function doRegeist(name,password,truename,tell) {
             // alert("aaaaaaaa");
             var route = "http://localhost:8080/Web/regist"; //数据传输到文件
             var $content = {
                 name: name,
                 password: password,
-                truename:truename
+                truename:truename,
+                tell:tell
             }
             var content = JSON.stringify($content);
             //alert(content);
@@ -137,6 +143,9 @@
             </tr>
             <tr><td>真实姓名：<br><br></td>
                 <td><input type="text" id="truename" name="truename"/><br><br></td>
+            </tr>
+            <tr><td>电话：<br><br></td>
+                <td><input type="text" id="tell" name="tell"/><br><br></td>
             </tr>
         </table>
 

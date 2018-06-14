@@ -51,6 +51,10 @@ public class MyController {
     private String fruit(){
         return "fruit";
     }
+    @RequestMapping("/zifu")
+    private String zifu(){
+        return "zifu";
+    }
 
 
 

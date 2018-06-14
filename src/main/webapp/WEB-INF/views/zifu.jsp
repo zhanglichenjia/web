@@ -123,8 +123,9 @@
     </style>
 </head>
 <body>
-<div class="logo"><img src="images/logo6.png" alt="" ><div>
-    <div class="tz">依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 将更有利于保护您的个人隐私。<div>
+<div class="logo"><img src="images/logo6.png" alt="" >
+    <div class="tz">依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 将更有利于保护您的个人隐私。
+
         <div class="top">
             <div class="d2"><img src="images/tp2.png" alt="" ></div>
             <div class="d3">
@@ -147,9 +148,11 @@
             <a href="#">商家入驻</a>&nbsp;|
             <a href="#">广告服务</a>&nbsp;|
             <a href="#">友情链接</a><br>
-            <p> Copyright © 2004-2018  小猪佩奇 版权所有</p>
+·            <p> Copyright © 2004-2018  小猪佩奇 版权所有</p>
 
 
         </div>
+    </div>
+    </div>
 </body>
 </html>
